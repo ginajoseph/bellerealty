@@ -19,7 +19,7 @@ end
 gem 'bootstrap-sass'
 gem 'devise', :git=>"https://github.com/plataformatec/devise.git", :branch=>"lm-rails-4-2"
 gem 'devise_invitable'
-gem 'mysql2'
+gem 'pg'
 gem 'sendgrid'
 gem 'simple_form'
 group :development do
@@ -40,7 +40,7 @@ group :development, :test do
   gem 'rspec-rails'
 end
 group :production do
-  gem 'mysql2'
+  gem 'pg'
   gem 'rails_12factor'
   gem 'unicorn'
 end
