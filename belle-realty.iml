@@ -20,6 +20,7 @@
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-2.1.2 [belle-realty]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sass-stdlib" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.0.beta1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.0.beta1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.0.beta1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
@@ -50,6 +51,9 @@
     <orderEntry type="library" scope="PROVIDED" name="devise (v3.3.0@8482e4, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise_invitable (v1.3.6, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v0.11.1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-deployment (v0.0.2, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v0.11.1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_girl (v4.4.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
@@ -124,7 +128,6 @@
     <orderEntry type="library" scope="PROVIDED" name="web-console (v2.0.0.beta4, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket (v1.2.1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v2.0.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
-    <orderEntry type="library" name="sass-stdlib" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
