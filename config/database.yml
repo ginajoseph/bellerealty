@@ -54,4 +54,4 @@ production:
   database: <%= ENV['DATABASE'] %>
   username: <%= ENV['BELLE-REALTY_DATABASE_USERNAME'] %>
   password: <%= ENV['BELLE-REALTY_DATABASE_PASSWORD'] %>
-  url: <%= ENV['HEROKU_POSTGRESQL_MAUVE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
