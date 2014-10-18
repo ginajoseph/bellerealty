@@ -15,6 +15,6 @@ test:
 
 production:
   <<: *default
-  username: <%= ENV['BELLE-REALTY_DATABASE_USERNAME'] %>
-  password: <%= ENV['BELLE-REALTY_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>
+#  username: <%= ENV['BELLE-REALTY_DATABASE_USERNAME'] %>
+#  password: <%= ENV['BELLE-REALTY_DATABASE_PASSWORD'] %>
+#  url: <%= ENV['DATABASE_URL'] %>
