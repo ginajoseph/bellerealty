@@ -103,7 +103,8 @@ Devise.setup do |config|
   # The period the generated invitation token is valid, after
   # this period, the invited resource won't be able to accept the invitation.
   # When invite_for is 0 (the default), the invitation won't expire.
-  config.invite_for = 2.weeks
+  # config.invite_for = 2.weeks
+  config.invite_for = 1.day
 
   # Number of invitations users can send.
   # - If invitation_limit is nil, there is no limit for invitations, users can
@@ -126,7 +127,7 @@ Devise.setup do |config|
 
   # Resend invitation if user with invited status is invited again
   # Default: true
-  config.resend_invitation = false
+  config.resend_invitation = true
 
   # The class name of the inviting model. If this is nil,
   # the #invited_by association is declared to be polymorphic.
@@ -255,6 +256,7 @@ Devise.setup do |config|
 
   # Time interval to unlock the account if :time is enabled as unlock_strategy.
   # config.unlock_in = 1.hour
+  config.unlock_in = 15.minutes
 
   # Warn on the last attempt before the account is locked.
   config.last_attempt_warning = true
