@@ -3,6 +3,10 @@ Belle Realty
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+[![Code Climate](https://codeclimate.com/github/ginajoseph/bellerealty/badges/gpa.svg)](https://codeclimate.com/github/ginajoseph/bellerealty)
+
+[![Test Coverage](https://codeclimate.com/github/ginajoseph/bellerealty/badges/coverage.svg)](https://codeclimate.com/github/ginajoseph/bellerealty)
+
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
 
