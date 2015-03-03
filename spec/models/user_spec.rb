@@ -9,11 +9,11 @@ describe User do
   end
 
   it "is invalid without first name" do
-    FactoryGirl.build(:user, first_name: nil).should be_valid
+    FactoryGirl.build(:user, first_name: nil).should_not be_valid
   end
 
   it 'is invalid without last name ' do
-    FactoryGirl.build(:user, last_name: nil).should be_valid
+    FactoryGirl.build(:user, last_name: nil).should_not be_valid
   end
 
   it { should respond_to(:email) }
