@@ -3,7 +3,9 @@ class UsersController < ApplicationController
   before_filter :admin_only, :except => :show
 
   def index
-    @users = User.all
+    if current_user.admin?
+      @users = User.all
+    end
   end
 
   def show
