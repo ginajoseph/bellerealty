@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 gem 'dotenv-rails', :groups => [:development, :test]
-gem 'rails', '4.2.0.beta1'
-gem 'sass-rails', '~> 5.0.0.beta1'
+gem 'rails', '4.2.1.rc3'
+gem 'sass-rails', '~> 5.0.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -12,13 +12,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails-html-sanitizer', '~> 1.0'
 gem "codeclimate-test-reporter", group: :test, require: nil
-group :development, :test do
-  gem 'byebug'
-  gem 'web-console', '~> 2.0.0.beta2'
-  gem 'spring'
-end
 gem 'bootstrap-sass'
-gem 'devise', :git=>"https://github.com/plataformatec/devise.git", :branch=>"lm-rails-4-2"
+gem 'devise'
 gem 'devise_invitable'
 gem 'pg'
 gem 'sendgrid'
@@ -36,6 +31,9 @@ group :development do
   gem 'rb-inotify', :require=>false
 end
 group :development, :test do
+  gem 'byebug'
+  gem 'web-console', '~> 2.0.0.beta2'
+  gem 'spring'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
