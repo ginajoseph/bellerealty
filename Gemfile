@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails-html-sanitizer', '~> 1.0'
+gem "codeclimate-test-reporter", group: :test, require: nil
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0.0.beta2'
