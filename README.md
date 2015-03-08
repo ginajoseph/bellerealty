@@ -7,6 +7,8 @@ Belle Realty
 
 [![Test Coverage](https://codeclimate.com/github/ginajoseph/bellerealty/badges/coverage.svg)](https://codeclimate.com/github/ginajoseph/bellerealty)
 
+[![Build Status](https://semaphoreci.com/api/v1/projects/2508199d-93ed-4fd8-a821-94b8a477c20d/326985/badge.png)](https://semaphoreci.com/ginajoseph/bellerealty)
+
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
 

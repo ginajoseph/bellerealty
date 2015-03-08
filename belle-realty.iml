@@ -51,10 +51,10 @@
     <orderEntry type="library" scope="PROVIDED" name="devise_invitable (v1.4.1, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="docile (v1.1.5, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="dotenv (v1.0.2, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v1.0.2, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.0.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v2.0.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.3.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.4.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_girl (v4.5.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_girl_rails (v4.5.0, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faker (v1.4.3, RVM: ruby-2.1.2 [belle-realty]) [gem]" level="application" />
